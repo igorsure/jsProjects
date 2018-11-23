@@ -1,0 +1,40 @@
+.container{
+    font-size:20px;
+    text-align:center;
+
+}
+.player-panel {
+    float:left;
+    width:300px;
+    height:800px;
+    background-color: rgb(173, 177, 138);
+}
+.chess-panel {
+    float:left;
+    width:800px;
+    height:800px;
+    padding: 25px;
+    background-color:#550;
+
+}
+.chess-board {
+    width: 560px;
+    height: 560px;
+    border:1px solid rgb(170, 170, 170);
+}
+.chess-board-row {
+    width:560px;
+    height:65px;
+    
+}
+.chess-board-cell {
+    float:left;
+    width:65px;
+    height:65px;
+    border:1px solid #ddd;
+    
+}
+.chess-board-cell:hover {
+    background-color:#aa0;
+    
+}
